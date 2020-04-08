@@ -1,0 +1,126 @@
+body{
+margin:0;
+padding:0;
+text-align:left;
+font-size:25px;
+font-family:arial,helvetica, sens-serif;
+color:black;
+background-image:url("https://www.azonano.com/images/Article_Images/ImageForArticle_4984(1).jpg");
+background-size:cover;
+background-position:center;
+}
+
+#container{
+width:960px;
+overflow:auto;
+}
+
+
+
+
+header{
+        text-shadow: 5px 4px yellow;
+width:960px;
+height:85px;
+}
+
+
+nav#leftmenu{
+margin-top:15px;
+width:190px;
+float:bottom;
+background:#2D64CC;
+border-radius:10px;
+padding: 30px 15px 0px 30px;
+margin-left:50px;}
+
+nav#leftmenu ul{
+list-style:none;
+padding-top:20px;
+padding:30px;
+}
+
+nav#leftmenu  li{
+list-style:none;
+padding:10px 0 8px 0;
+
+}
+
+nav#leftmenu a,nav#leftmenu a:visited{
+color:#ffffff;
+text-decoration:none;
+font-weight:bold;
+font-size:14px;
+}
+
+nav#leftmenu h3{
+color:#ffffff;
+padding:10px;
+padding-bottom:10px;
+padding-top:0px;
+margin-top:0px;
+
+font-size:16px;
+}
+
+
+header h1{
+float:left;
+color:white;
+font-size:60px;
+height:80px;
+padding:30px 0 0 460px;
+text-align:center;
+margin-left:130px;
+}
+h2{
+padding:40px 120px 120px 280px;
+height:150px;
+width:100px;
+}
+
+h3{
+text-align:center;
+font-size:40px;
+font-family:arial,helvetica, sens-serif;
+color:black;
+}
+.form{
+position:relative;
+z-index:1;
+max-width:360px;
+margin:190px 195px 50px;
+padding:45px;
+text-align:center;
+}
+
+.form button{
+font-family:"roboto",sans-serif;
+text-transform:uppercase;
+outline:0;
+background:#F71276;
+width:100%;
+border:0;
+padding:15px;
+color:#ffffff;
+font-size:14px;
+cursor:pointer;
+}
+
+
+.form button:hover, .form button:active{
+background:#43A047;
+}
+
+section{
+background-image:url("https://www.iibmindia.in/wp-content/uploads/2018/06/successful-career-changeover-847x477.jpg");
+  width: 900px;
+  height: 450px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+margin-top:50px;
+ 
+}
+

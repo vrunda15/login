@@ -1,0 +1,50 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>login and registration form design</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<div class="login-page">
+<div class="form">
+<form class="register-form">
+<input type="text" placeholder="username/">
+<input type="text"placeholder="password/">
+<input type="email" placeholder="email address" pattern="^[\w.+\-]+@siesgst\.ac\.in$">
+<button>LOGIN</button>
+<p class="message">NOT registered?<a href="#">CREATE</a>
+</p>
+</form>
+
+
+
+
+<form class="login-form" action="post.html" method="post">
+<input type="text" placeholder="username/">
+<input type="email" placeholder="email address" pattern="^[\w.+\-]+@siesgst\.ac\.in$">
+<input type="password" placeholder="password/">
+<input type="text" placeholder="Job status/">
+<input type="text" placeholder="Company name(if required)/">
+<input type="number" placeholder="mobile number/" pattern="\d+">
+<input type="text" placeholder="Date of birth(DD/MM/YYYY)/">
+<input type="text" placeholder="Passing year/">
+<button>CREATE</button>
+<p class="message">REGISTERED?<a href="#">LOGIN</a>
+</p>
+</form>
+
+
+
+</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js">
+</script>
+<script>
+$('.message a').click(function(){
+$('form').animate({height:"toggle",opacity:"toggle"},"slow");
+});
+
+</script>
+</body>
+</html>
